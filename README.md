@@ -21,7 +21,7 @@ source /opt/intel/parallel_studio_xe_2019/psxevars.sh
 source ~/.bashrc使之生效
 ```
 # 进入/opt/intel/compilers_and_libraries_2019.x.xxx/
-linux/mkl/interfaces/fftw3xf
+# linux/mkl/interfaces/fftw3xf
 ```
 运行make libintel64
 ```
