@@ -20,11 +20,12 @@ source /opt/intel/parallel_studio_xe_2019/psxevars.sh
 
 source ~/.bashrc使之生效
 ```
-# 然后进入/opt/intel/compilers_and_libraries_2019.x.xxx/linux/mkl/interfaces/fftw3xf
+# 进入/opt/intel/compilers_and_libraries_2019.x.xxx/linux/mkl/interfaces/fftw3xf
 ```
 运行make libintel64
 ```
 过一会儿当前目录下会产生libfftw3xf_intel.a库文件
+
 重新进入终端，运行ifort -V，如果显示出了编译器的版本，说明编译器已经可以正常使用了
 
 # 解压vasp,进入该目录
@@ -36,7 +37,7 @@ source ~/.bashrc使之生效
 
 之后运行make all
 
-编译完成后，在vasp.5.4.4/bin目录下出现了vasp_gam、vasp_ncl、vasp_std三个可执行文件
+编译完成后，在vasp.5.4.x/bin目录下出现了vasp_gam、vasp_ncl、vasp_std三个可执行文件
 
 vasp_std改名为vasp
 # 添加可执行文件的路径
